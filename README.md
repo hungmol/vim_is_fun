@@ -4,15 +4,18 @@ This repository contains all my vim editor configs, tips, tricks, etc ..
 I used plug-vim for vim plugin manager
 # Installation:
 
--**Step 1**: Install Plug-vim manager: 
-   ``` 
-   curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    ```
+**Step 1**: Install Plug-vim manager
+   ```
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim 
+   ```
   
--**Step 2**: Create plugins.vim in ~/.vim/
--**Step 3**: Modify the plugins.vm in ~/.vim , Ex:
-  ```call plug#begin('~/.vim/plugged')Plug 'airblade/vim-gitgutter'
+**Step 2**: Create plugins.vim in ~/.vim/
+
+**Step 3**: Modify the plugins.vm in ~/.vim 
+For example:
+  ```
+  call plug#begin('~/.vim/plugged')Plug 'airblade/vim-gitgutter'
       Plug 'editorconfig/editorconfig-vim'
       Plug 'itchyny/lightline.vim'
       Plug 'junegunn/fzf'
@@ -23,11 +26,11 @@ I used plug-vim for vim plugin manager
       Plug 'tpope/vim-eunuch'
       Plug 'tpope/vim-surround'
       Plug 'w0rp/ale'
-     call plug#end
+   call plug#end
   ```
      
--**Step 4**: Modify the vimrc file in $HOME folder by add this line:
+**Step 4**: Modify the vimrc file in $HOME folder by add this line:
      ```so ~/.vim/plugins.vim```
      
--**Step 5**: go to vim and type:
+**Step 5**: go to vim and type:
      ```:PlugInstall```
