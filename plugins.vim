@@ -7,8 +7,13 @@ Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
 Plug 'valloric/youcompleteme'
-Plug 'vim-scripts/vim-gitgutter'
+
+" Add plugins support for tags
 Plug 'majutsushi/tagbar'
 Plug 'vim-scripts/ctags.vim'
+Plug 'craigemery/vim-autotag'
+Plug 'airblade/vim-gitgutter'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
+
