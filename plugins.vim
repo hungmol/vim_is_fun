@@ -14,6 +14,7 @@ Plug 'vim-scripts/ctags.vim'
 Plug 'craigemery/vim-autotag'
 Plug 'airblade/vim-gitgutter'
 Plug 'morhetz/gruvbox'
+Plug 'fatih/vim-go'
 
 call plug#end()
 
