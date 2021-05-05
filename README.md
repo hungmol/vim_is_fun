@@ -15,7 +15,8 @@ I used plug-vim for vim plugin manager
 **Step 3**: Modify the plugins.vm in ~/.vim 
 For example:
   ```
-  call plug#begin('~/.vim/plugged')Plug 'airblade/vim-gitgutter'
+  call plug#begin('~/.vim/plugged')
+      Plug 'airblade/vim-gitgutter'
       Plug 'editorconfig/editorconfig-vim'
       Plug 'itchyny/lightline.vim'
       Plug 'junegunn/fzf'
@@ -26,7 +27,7 @@ For example:
       Plug 'tpope/vim-eunuch'
       Plug 'tpope/vim-surround'
       Plug 'w0rp/ale'
-   call plug#end
+   call plug#end ()
   ```
      
 **Step 4**: Modify the vimrc file in $HOME folder by add this line:
