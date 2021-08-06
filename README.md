@@ -35,3 +35,7 @@ For example:
      
 **Step 5**: go to vim and type:
      ```:PlugInstall```
+
+
+Reference for python:
+https://realpython.com/vim-and-python-a-match-made-in-heaven/#ditch-the-mouse
