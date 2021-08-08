@@ -39,3 +39,7 @@ For example:
 
 Reference for python:
 https://realpython.com/vim-and-python-a-match-made-in-heaven/#ditch-the-mouse
+
+# Install for YouCompleteMe
+1. cd ~/.vim/plugged/YouCompleteMe
+2. ./install.py
